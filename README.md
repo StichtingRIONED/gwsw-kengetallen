@@ -1,5 +1,5 @@
-# GWSW_Kengetallen
+# GWSW Kengetallen
 Datamodel GWSW Kengetallen
 
 
-Zie het ontwerp op: https://stichtingrioned.github.io/gwsw-kegetallen
+Zie het ontwerp op: https://stichtingrioned.github.io/gwsw-kengetallen

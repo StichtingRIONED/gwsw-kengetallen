@@ -25,15 +25,15 @@ var respecConfig =
     companyURL: "https://www.marIvon.nl"
   }],
   otherLinks: [{
-    key: "GitHub", href: "https://github.com/stichtingrioned/gwsw-kegetallen/"
+    key: "GitHub", href: "https://github.com/stichtingrioned/gwsw-kengetallen/"
   }],
   //github: "https://github.com/StichtingRIONED/GWSW"
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
   //issueBase: "https://github.com/StichtingRIONED/GWSW/issues/",
 
-  thisVersion: "https://stichtingrioned.github.io/gwsw-kegetallen/",
+  thisVersion: "https://stichtingrioned.github.io/gwsw-kengetallen/",
   latestVersion: "", // gepubliceerde versie
-  edDraftURI: "https://stichtingrioned.github.io/gwsw-kegetallen/", // werkversie
+  edDraftURI: "https://stichtingrioned.github.io/gwsw-kengetallen/", // werkversie
 
   maxTocLevel: 3, // Aantal niveau's ToC, default is 0/geen limiet
   level2: true, // mv: hoofdstuk-nummering alleen voor de subsections (20210212)
