@@ -2,4 +2,4 @@
 Datamodel GWSW Kengetallen
 
 
-Zie het ontwerp op: https://stichtingrioned.github.io/GWSW_Kentallen
+Zie het ontwerp op: https://stichtingrioned.github.io/gwsw-kegetallen
