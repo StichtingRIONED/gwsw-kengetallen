@@ -5,7 +5,7 @@
   .symbol{width:30px;height:30px;margin-right:1em;vertical-align:middle}
 </style>
 
-**LET OP: OP KORTE TERMIJN WORDT DEZE PAGINA UITGEBREID EEN GEBRUIKERSHANDLEIDING EN AANGEVULD MET DE GELEERDE LESSEN DOOR GEBRUIKERS.**
+**LET OP: OP KORTE TERMIJN WORDT DEZE PAGINA UITGEBREID EEN GEBRUIKERSHANDLEIDING EN AANGEVULD MET DE GELEERDE LESSEN DOOR GEBRUIKERS.**.
 
 De module GWSW-Kengetallen is ontwikkeld door Jordie Netten (Nelen & Schuurmans, thans Netten Wateradvies), in samenwerking met de werkgroep GWSW-Kengetallen, bestaande uit:
 - Marco van Bijnen, Duopp 
