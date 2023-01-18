@@ -3,7 +3,7 @@ var respecConfig =
   //specStatus: "unofficial", // w3c-UD.css nodig, maar die is er niet
   specStatus: "design",
   //specStatus: "official",
-  //specType: "HR",             // Handreiking
+  specType: "HR",             // Handreiking
   //format: "markdown",         // Altijd "markdown"     
   shortName: "GWSW-Kentallen", 	      // Wordt gebruikt in de document URL
   license: "cc0",
