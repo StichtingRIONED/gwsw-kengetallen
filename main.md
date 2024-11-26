@@ -32,7 +32,7 @@ De afkorting GWSW staat voor GegevensWoordenboek Stedelijk Water, de open standa
 
 De riolering en een deel van de afvalwaterketen kan al worden beschreven met het GWSW (Basis, Rib en Hyd). In het GWSW ontbreekt echter de schematisering van het afvoernetwerk en de bijbehorende kengetallen. Vanuit de Community of Practice ‘Afvalwaterprognoses’ van de STOWA is aan Stichting RIONED gevraagd om het GWSW geschikt te maken om als bron te dienen voor het doorrekenen van afvoerscenario’s in de afvalwaterketen. Dit wordt beschreven in GWSW-Kengetallen.
 
-De algemene beschrijving van het GWSW model vindt u op [data.gwsw.nl](https://data.gwsw.nl/). De datamodellen GWSW-Basis (operationeel beheer), GWSW-Rib (inspectie en reiniging van leidingen, putten en kolken) en GWSW-Hyd (hydraulische modellering) zijn al eerder vastgestelde onderdelen van het GWSW. De tools rondom GWSW vindt u op [apps.gwsw.nl](https://apps.gwsw.nl). Voor de details van het datamodel GWSW-Kengetallen, zie [data.gwsw.nl/Kentallen](https://data.gwsw.nl/Kentallen).
+De algemene beschrijving van het GWSW model vindt u op [data.gwsw.nl](https://data.gwsw.nl/). De datamodellen GWSW-Basis (operationeel beheer), GWSW-Rib (inspectie en reiniging van leidingen, putten en kolken) en GWSW-Hyd (hydraulische modellering) zijn al eerder vastgestelde onderdelen van het GWSW. De tools rondom GWSW vindt u op [apps.gwsw.nl](https://apps.gwsw.nl). Voor de details van het datamodel GWSW-Kengetallen, zie [data.gwsw.nl/Kengetallen](https://data.gwsw.nl/Kengetallen).
 
 # Gegevensuitwisseling t.b.v. afvalwaterprognoses
 
@@ -66,7 +66,7 @@ In Figuur 2 staan de gegevensstromen en gereedschappen weergegeven die gebruikt 
 
 ## Afvoernetwerk
 
-Zie [data.gwsw.nl/Kentallen/Afvoernetwerk](https://data.gwsw.nl/Kentallen/Afvoernetwerk)
+Zie [data.gwsw.nl/Kengetallen/Afvoernetwerk](https://data.gwsw.nl/Kengetallen/Afvoernetwerk)
 
 Binnen een zuiveringskring vormen rioleringsgebieden, rioolstelsels (vrijverval en mechanisch) en de zuivering samen met verschillende type leidingen een afvoernetwerk. Dit netwerk bestaat uit knooppunten (afvoerpunten) en verbindingen (afvoerrelaties).
 
@@ -78,7 +78,7 @@ In GWSW-Kengetallen wordt dit netwerk topologisch geschematiseerd (Figuur 3). Da
 
 ## Afvoerpunt  
 
-Zie [data.gwsw.nl/Kentallen/Afvoerpunt](https://data.gwsw.nl/Kentallen/Afvoerpunt)
+Zie [data.gwsw.nl/Kengetallen/Afvoerpunt](https://data.gwsw.nl/Kengetallen/Afvoerpunt)
 
 Een *Afvoerpunt* is de topologische vertaling van de zuivering (met subtype *Afleveringspunt*) en van rioleringsgebieden, opvoergemalen, tussengemalen, boostergemalen of andere fysieke constructies (met subtype *Afvoerpunt gebied*). Daardoor is het mogelijk het afvoernetwerk ook op kaart te visualiseren. De kengetallen van een stelsel of gebied worden gekoppeld aan het betreffende afvoerpunt. 
 
@@ -120,7 +120,7 @@ Voor *Afvoerpunt gebied* zijn de volgende kenmerken mogelijk:
 <a id="afvoerrelatie"></a>
 ## Afvoerrelatie
 
-Zie [data.gwsw.nl/Kentallen/Afvoerrelatie](https://data.gwsw.nl/Kentallen/Afvoerrelatie)
+Zie [data.gwsw.nl/Kengetallen/Afvoerrelatie](https://data.gwsw.nl/Kengetallen/Afvoerrelatie)
 
 Een *Afvoerrelatie* is de topologische verbinding tussen twee afvoerpunten, te weten het beginpunt en het eindpunt van de afvoerrelatie. De afvoer kan onder vrijverval (met subtype *Afvoerrelatie vrijverval*) of mechanisch (met subtype *Afvoerrelatie mechanisch*) plaatsvinden.
 
@@ -201,11 +201,11 @@ Waterschappen in Nederland hebben verschillende applicaties in gebruik voor het 
 
 *Figuur 8 - Selecteren van dataset op apps.gwsw.nl via selectievorm en zuiveringskring*
 
-Via de applicatie GWSW-Geo (Figuur 9) kan daarna de geselecteerde dataset (1, wordt automatisch ingevuld) worden gekoppeld aan het geo-thema Kentallen (2). Tot slot kan een geo-bestand of WFS-aanroep worden gemaakt (3). Het geo-bestand of de WFS-aanroep is de invoer voor de prognose-software.
+Via de applicatie GWSW-Geo (Figuur 9) kan daarna de geselecteerde dataset (1, wordt automatisch ingevuld) worden gekoppeld aan het geo-thema Kengetallen (2). Tot slot kan een geo-bestand of WFS-aanroep worden gemaakt (3). Het geo-bestand of de WFS-aanroep is de invoer voor de prognose-software.
 
 <img src="media/opvragen2.jpg" style="width:100%;height:50%" />
 
-*Figuur 9 - Kies het geo-thema Kentallen en vraag de gegevens op via een geo-bestand of WFS-aanroep*
+*Figuur 9 - Kies het geo-thema Kengetallen en vraag de gegevens op via een geo-bestand of WFS-aanroep*
 
 In deze stap konden de deelnemers (een brede groep gebruikers van verschillende prognosetools) zelfstandig aan de slag met een aangeleverde testdataset (WFS-aanroep) in hun eigen applicatie. Het verzoek was om de volgende vragen te beantwoorden:
 - Wat gaat goed met het opstellen van een afvoerscenario met behulp van GWSW-Kengetallen?
@@ -215,7 +215,8 @@ In deze stap konden de deelnemers (een brede groep gebruikers van verschillende 
 - Welke aanpassingen ga je uitvoeren in jouw applicatie om aan te sluiten op GWSW-Kengetallen?
 - Wat heb je verder nog nodig vanuit de werkgroep?
 
-Na Stap 4 is er eind juli 2022 met het projectteam een evaluatie geweest. Het resultaat hiervan was het gereedkomen van de conceptversie GWSW-Kengetallen die is voorgelegd aan de Werkgroep GWSW-Basis van Stichting RIONED. Na goedkeuring door de Werkgroep GWSW-Basis is conceptversie 1.1 van GWSW-Kengetallen gebruikt voor de publieke consultatie in oktober 2022. Enige aanpassing is de wijziging van naamgeving van GWSW-Kentallen in GWSW-Kengetallen. In november 2022 is GWSW-Kengetallen vastgesteld door de Centrale Commissie van Datastandaarden
+Na Stap 4 is er eind juli 2022 met het projectteam een evaluatie geweest. Het resultaat hiervan was het gereedkomen van de conceptversie GWSW-Kengetallen die is voorgelegd aan de Werkgroep GWSW-Basis van Stichting RIONED. Na goedkeuring door de Werkgroep GWSW-Basis is conceptversie 1.1 van GWSW-Kengetallen gebruikt voor de publieke consultatie in oktober 2022. Enige aanpassing is de wijziging van naamgeving van GWSW-Kentallen in GWSW-Kengetallen. 
+In november 2022 is GWSW-Kengetallen vastgesteld door de Centrale Commissie van Datastandaarden
 
 ## Onderbouwing van de keuzes die zijn gemaakt
 In deze paragraaf staan de keuzes die zijn gemaakt in de totstandkoming van de GWSW-Kengetallen toegelicht. Hierbij is het criterium: "Is het nodig voor het maken van afvalwaterprognoses?" leidend geweest.
@@ -298,7 +299,7 @@ Als de gegevens op de GWSW-server van Stichting RIONED staan, dan kan er met de 
 
 Naast het ontsluiten van de gegevens via de selectievorm "Afvoernetwerken" is het ook mogelijk om een afvoernetwerk te ontsluiten via de omgeving van een specifieke organisatie (enkel de gemeente of enkel het waterschap). De aparte organisaties zijn te vinden via de selectievorm "GWSW-publicaties". Via deze route is het afvoernetwerk van de specifieke organisatie te vinden, zonder alle kenmerken van de afvoerpunten en -relaties. De afvoerpunten staat in de attributentabel van de layer "Default: Punt" en de afvoerrelaties staan in de attributentabel van de layer "Default: Lijn".
 
-De WFS kan worden aangeroepen via een GIS-pakket. In onderstaande voorbeelden is daarvoor QGIS gebruikt. De gegevens van het afvoernetwerk zijn aanwezig in drie verschillende layers: afvoerpunt, afvoerrelatie en afvoergebied. De layer afvoergebieden bevat enkel informatie als het afvoerpunt onderdeel is van een gebied of stelsel en er een gebiedsgrens als polygoon aanwezig is in de dataset op de server. In het document [GWSW-Modelbeschrijving](https://data.gwsw.nl/Kentallen) zijn per layer de aanwezige velden nader toegelicht.
+De WFS kan worden aangeroepen via een GIS-pakket. In onderstaande voorbeelden is daarvoor QGIS gebruikt. De gegevens van het afvoernetwerk zijn aanwezig in drie verschillende layers: afvoerpunt, afvoerrelatie en afvoergebied. De layer afvoergebieden bevat enkel informatie als het afvoerpunt onderdeel is van een gebied of stelsel en er een gebiedsgrens als polygoon aanwezig is in de dataset op de server. In het document [GWSW-Modelbeschrijving](https://data.gwsw.nl/Kengetallen) zijn per layer de aanwezige velden nader toegelicht.
 
 <img src="media/wfs_afvoerpunt.jpg" style="width:100%;height:50%" />
 
